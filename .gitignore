@@ -1,0 +1,34 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Chrome Extension / Build
+*.crx
+*.pem
+*.zip
+dist/
+build/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Ambientes e Segredos
+.env
+.env.*
+*.pem
+credentials.json
+client_secret*.json

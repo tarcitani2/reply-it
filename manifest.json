@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "reply-It: Migrador de Inscrições",
+  "version": "1.0.0",
+  "description": "Migre suas inscrições do YouTube de uma conta para outra.",
+  "action": {
+    "default_title": "Migrar Inscrições",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": [
+    "identity",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://oauth2.googleapis.com/*",
+    "https://www.googleapis.com/*",
+    "https://accounts.google.com/*"
+  ],
+  "oauth2": {
+    "client_id": "398911429470-vn6rvdb24cl3ffe22v39i2hjshn10hqb.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/youtube"
+    ]
+  }
+}
